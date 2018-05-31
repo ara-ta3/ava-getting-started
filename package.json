@@ -1,0 +1,14 @@
+{
+  "name": "ava-getting-started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/ara-ta3/ava-getting-started.git",
+  "author": "Arata Tanaka <tarata43@yahoo.co.jp>",
+  "license": "MIT",
+  "scripts": {
+      "ava": "ava -v ./test/**"
+  },
+  "dependencies": {
+    "ava": "^0.25.0"
+  }
+}
