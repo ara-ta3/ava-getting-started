@@ -9,7 +9,7 @@ test.cb('hello callback success', t => {
     t.end();
 });
 
-test.cb('hello callback fail', t => {
+test.failing.cb('hello callback fail', t => {
     t.is(1, 1);
 });
 
